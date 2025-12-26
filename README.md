@@ -1,3 +1,5 @@
+Bioinformatics Poster 
+Drosophila melanogaster heat shock protein 70Aa 
 Subcellular localization 
 Prediction Results (CELLO):
 Primary Localization: Cytoplasmic.
