@@ -1,13 +1,27 @@
-protein protein interaction 
-The network reveals that Hsp70Aa is a central "hub" protein. Key interaction partners include:
-Hsp83: Another major chaperone involved in protein maturation.
+RNA Analysis
+The minimum free energy is -636.80 kcal/mol thats why rnafold structure is highly stable due to a high frequency of G-C base pairs (which have three hydrogen bonds) and the formation of multiple stem-loop structures. This stability is crucial for the mRNA to persist in the cell during heat stress.
+5' UTR is:
+Coordinates: Base 1 to Base 480.
+Significance: This long leader sequence is characteristic of heat shock genes
+Start CodonATG is at Positions 481–483
+Bioinformatics Poster 
+Drosophila melanogaster heat shock protein 70Aa 
+Subcellular localization 
+Prediction Results (CELLO):
+Primary Localization: Cytoplasmic.
 
-Stip1: An adapter protein that coordinates Hsp70 and Hsp90.
+Reliability Score: 2.835 (Significant).
 
-Droj2: A co-chaperone that stimulates Hsp70 ATPase activity.
-
-Trap1: A mitochondrial HSP90-like protein.
-Biological Processes: Protein folding (GO:0006457), Response to heat (GO:0009408), and Cellular response to heat (GO:0034605).
-
-Molecular Functions: Unfolded protein binding (GO:0051082) and ATP-dependent protein folding chaperone (GO:0140662).
-The high number of connections (edges) in the STRING network confirms that Hsp70Aa does not function in isolation. Its primary biological significance lies in its role as a molecular chaperone. By interacting with co-chaperones like Droj2 and other heat shock proteins like Hsp83, it forms a multi-protein complex called the "chaperome." This network is essential for maintaining proteostasis (protein homeostasis) by refolding denatured proteins or targeting irreversibly damaged proteins for degradation, especially under environmental stress.
+Secondary Possibilities: Mitochondrial (0.735) and Nuclear (0.486).
+As a heat shock protein, Hsp70Aa is primarily located in the cytoplasm to assist with protein folding and to prevent the aggregation of denatured proteins during thermal stress. The secondary nuclear score is consistent with the known behavior of Hsp70 proteins, which can migrate to the nucleus during severe heat shock to protect nuclear machinery.
+TargetP: Confirms there is no strong N-terminal signal peptide, which is typical for proteins that stay in the main cell compartment.
+Protein Analysis 
+molecular weight: 70159.96
+instability index: 41.41
+aliphatic index: 79.66
+pI: 5.54
+Domain (PRK00290.1): Identified across the primary sequence.
+ATPase Domain (NBD): Located at the N-terminus; responsible for ATP binding and hydrolysis which drives the chaperone cycle.
+Substrate Binding Domain (SBD): Located at the C-terminus; binds to unfolded or misfolded polypeptides.
+The protein consists of a complex mix of alpha-helices and beta-sheets. The long "tail" or linker region shows lower confidence, typical of flexible protein segments.
+Functional Prediction: Based on the identified ASKHA_NBD and HSP70_peptide-binding domains, this protein functions as a molecular chaperone. It uses energy from ATP to assist in protein folding and prevent aggregation during thermal stress.
