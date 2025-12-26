@@ -1,1 +1,2 @@
-# Bioinformatics_Project_ZubiaAkram
+Bioinformatics Poster 
+Drosophila melanogaster heat shock protein 70Aa 
